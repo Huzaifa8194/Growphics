@@ -1,3 +1,4 @@
 {
+  "/portfolio/[portfolioDetailsId]/page": "app/portfolio/[portfolioDetailsId]/page.js",
   "/blog/page": "app/blog/page.js"
 }
