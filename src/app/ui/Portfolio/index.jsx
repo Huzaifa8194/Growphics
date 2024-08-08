@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
 import Div from '../Div';
 import { Modal } from 'antd'; // Import Modal from antd
+//import './styles.css'; // Import the stylesheet where custom CSS is defined
 
 export default function Portfolio({ src, title, subtitle, variant }) {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [open, setOpen] = useState(false); // State to control modal visibility
 
   const showModal = () => {
-    setIsModalOpen(true);
+    setOpen(true);
   };
 
   const handleOk = () => {
-    setIsModalOpen(false);
+    setOpen(false);
   };
 
   const handleCancel = () => {
-    setIsModalOpen(false);
+    setOpen(false);
   };
 
   return (
@@ -40,10 +41,11 @@ export default function Portfolio({ src, title, subtitle, variant }) {
       
       <Modal
         title={title}
-        open={isModalOpen}
+        centered
+        open={open}
         onOk={handleOk}
         onCancel={handleCancel}
-        footer={null} // Remove default footer
+        width= {1000} // Apply custom class
       >
         <img src={src} alt={title} style={{ width: '100%' }} /> {/* Display image */}
       </Modal>

@@ -1699,3 +1699,8 @@ label {
   margin: 5px 0 0;
   color: #666;
 }
+
+
+.custom-modal-width .ant-modal {
+  width: 1000px !important; /* Ensure width is applied */
+}
