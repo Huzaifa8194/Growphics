@@ -12,6 +12,7 @@ import TestimonialSliderStyle3 from "@/app/ui/Slider/TestimonialSliderStyle3";
 import Spacing from "@/app/ui/Spacing";
 import Card from "./ui/Card";
 import Hero11 from "./ui/Hero/Hero11";
+import WhatsAppIcon from "./ui/Whatsapp/page";
 
 // Hero Social Links
 const heroSocialLinks = [
@@ -94,29 +95,29 @@ export default function Home() {
         />
         <Spacing lg="90" md="45" />
         <Div className="row">
-          <Div className="col-lg-4">
+        <Div className="col-lg-4">
             <IconBox
-              icon="/images/icons/service_icon_1.svg"
-              title="Sketching"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
+              icon='/images/icons/service_icon_1.svg'
+              title='Sketching'
+              subtitle='Our design process begins with sketching, where we brainstorm and draft multiple concepts for your brand logo. This stage allows our designers to explore creative ideas and visualize the initial look and feel of your brand identity.'
             />
-            <Spacing lg="30" md="30" />
+            <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon="/images/icons/service_icon_2.svg"
-              title="Wireframing"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
+              icon='/images/icons/service_icon_2.svg'
+              title='Wireframing'
+              subtitle='In the wireframing phase, we refine the selected sketches into structured outlines, focusing on layout and positioning. This step ensures that the logos elements are harmonized and ready for the next stage of development, keeping your brands core values in mind.'
             />
-            <Spacing lg="30" md="30" />
+            <Spacing lg='30' md='30'/>
           </Div>
           <Div className="col-lg-4">
             <IconBox
-              icon="/images/icons/service_icon_3.svg"
-              title="Prototyping"
-              subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium also a doloremque laudantium, totam remain beatae vitae dictaro enim ipsam sunt explicabo."
+              icon='/images/icons/service_icon_3.svg'
+              title='Prototyping'
+              subtitle='Prototyping is where the final touches come together. Using advanced design software, we bring the wireframes to life, creating a versatile and scalable logo prototype. This phase ensures your logo is ready to make a powerful and lasting impression across various media platforms.'
             />
-            <Spacing lg="30" md="30" />
+            <Spacing lg='30' md='30'/>
           </Div>
         </Div>
       </Div>
@@ -293,6 +294,7 @@ export default function Home() {
           </Div>
         </Div>
       </Div>
+      <WhatsAppIcon/>
       {/* End Blog Section */}
       <Spacing lg="150" md="80" />
       <CtaStyle2
