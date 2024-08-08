@@ -19,21 +19,44 @@ const copyrightLinks = [
 
 const serviceMenu = [
   {
-    title: 'UI/UX design',
+    title: 'Product Packaging Design',
     href: '/service/service-details',
   },
   {
-    title: 'WP development',
+    title: 'Enhanced Brand Content',
     href: '/service/service-details',
   },
   {
-    title: 'Digital marketing',
+    title: 'Brand Logo Design',
+    href: '/service/service-details',
+  },
+
+];
+
+
+const linksMenu = [
+  {
+    title: 'Home',
     href: '/service/service-details',
   },
   {
-    title: 'React development',
+    title: 'About',
     href: '/service/service-details',
   },
+  {
+    title: 'Services',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Portfolio',
+    href: '/service/service-details',
+  },
+  {
+    title: 'Blog',
+    href: '/service/service-details',
+  },
+
+
 ];
 
 const date = new Date().getFullYear();
@@ -47,28 +70,37 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/footer_logo.svg"
+                  logoSrc="/images/logo.svg"
                   logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  text="WE COMMIT! WE DESIGN! WE DELIVER!"
                 />
                 <SocialWidget />
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+
+            
+           
+            <Div className="col-lg-3 col-sm-8">
+              <Div className="cs-footer_item ml-20 align-middle">
+                <MenuWidget menuItems={linksMenu} menuHeading="Quick Links" />
+              </Div>
+            </Div>
+              
+            <Div className="col-lg-3 col-sm-8">
               <Div className="cs-footer_item">
                 <MenuWidget menuItems={serviceMenu} menuHeading="Services" />
               </Div>
             </Div>
-            <Div className="col-lg-3 col-sm-6">
+            {/* <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title="Contact Us" />
+                 <ContactInfoWidget title="Contact Us" /> 
               </Div>
-            </Div>
+            </Div> */}
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <Newsletter
-                  title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  title="STAY IN TOUCH"
+                  subtitle=""
                   placeholder="example@gmail.com"
                 />
               </Div>
@@ -80,7 +112,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
             <Div className="cs-copyright">
-              Copyright © {`${date}`} Laralink.
+              Copyright © {`${date}`}.
             </Div>
           </Div>
           <Div className="cs-bottom_footer_right">

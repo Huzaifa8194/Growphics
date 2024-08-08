@@ -283,7 +283,7 @@ export default function Home() {
                 btnText="View More Blog"
                 btnLink="/blog"
               />
-              <Spacing lg="90" md="45" />
+              <Spacing lg="170" md="45" />
             </Div>
             <Div className="col-xl-7 offset-xl-1">
               <Div className="cs-half_of_full_width">

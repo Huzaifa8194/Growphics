@@ -3,29 +3,39 @@ import { useState } from 'react';
 import Div from '../Div';
 const accordionData = [
   {
-    question: 'Do you design illustration website?',
+    question: 'What do you need from me to start working?',
     answer:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      'All we need is product photos, product link(s), and your logo. In addition, if you are able to provide some more details it would be great, such as EBC layout, any inspiration, text info, etc. These allow us to provide you with the best results.',
   },
   {
-    question: 'Do you provide design source file after finish work?',
+    question: 'How many revisions are included?',
     answer:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      'There are unlimited revisions as we believe to satisfy all our clients.',
   },
   {
-    question: 'How to provide project details and payments?',
+    question: 'I have more products to do EBC images for them. Can I get any discount on them?',
     answer:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      'Why not, we believe in long-term partnerships with our clients we would be more than happy to give you some discounts on them.',
   },
   {
-    question: 'Can you tell me please how to contact for project?',
+    question: 'What happens if Amazon does not approve the EBC?',
     answer:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      'Don\'t worry, this can happen sometimes due to many reasons. We will work with you to make the necessary changes suggested by Amazon to get it approved.',
   },
   {
-    question: 'Do you makes custom logo, icon etc?',
+    question: 'I\'ve not registered my product as a brand yet. Do I have to do that before ordering your service?',
     answer:
-      'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.',
+      'Yes, you will need to register the brand before ordering our service. If this is not completed prior, we can still create the EBC, but you will not be able to submit it to Amazon before registering your brand.',
+  },
+  {
+    question: 'All images in your portfolio are your work?',
+    answer:
+      'Yes, all images shown in our portfolio are our work. Also, your project after it is finished may be added to our portfolio and/or our social media. If you for any reason DO NOT WANT your design to be shown there, let us know in advance.',
+  },
+  {
+    question: 'Do you design the images in other languages as well?',
+    answer:
+      'Yes, we do the images in different languages such as (German, French, Dutch, Spanish, etc.) as we work with clients from all over the world.',
   },
 ];
 

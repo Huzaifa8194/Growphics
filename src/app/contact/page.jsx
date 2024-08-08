@@ -11,7 +11,7 @@ export default function ContactPage() {
     <>
       <PageHeading
         title="Contact Us"
-        bgSrc="/images/contact_hero_bg.jpeg"
+        bgSrc="/images/home_banner.jpg"
         pageLinkText="Contact"
       />
       <Spacing lg="150" md="80" />
@@ -23,7 +23,7 @@ export default function ContactPage() {
               subtitle="Getting Touch"
             />
             <Spacing lg="55" md="30" />
-            <ContactInfoWidget withIcon />
+            {/* <ContactInfoWidget withIcon /> */}
             <Spacing lg="0" md="50" />
           </Div>
           <Div className="col-lg-6">

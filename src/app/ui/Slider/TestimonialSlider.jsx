@@ -8,36 +8,61 @@ const testimonialData = [
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '4',
+      'WOW!!! I had an amazing experience working with Behroz Graphics, I sent them a sketch of what I was thinking and a picture of our existing sign and their first version was almost perfect. I had a couple small edits which were very promptly done and sent back to me. I will definitely work with them again! Highly Recommend!!!',
+    avatarName: 'sambranditt',
+    avatarDesignation: 'Canada',
+    ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_2.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
+      "wow. I must say I'm very impressed with the execution of my project gig. behrozgraphics really work to execute at the highest of expectations with changes edits and more. i look forward to doing more business with him coming soon. highly recommend to family friends coworkers & etc. ⭐⭐⭐⭐⭐",
+    avatarName: 'royalphoxx1',
+    avatarDesignation: 'United States',
     ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_3.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '4.5',
+      'it was a whole experience working with he, he really got my ideas and I make a perfect boss design 100% better that I was thinking 100% recommend and im definitely gonna work with he next time thanks',
+    avatarName: 'andrssilva435',
+    avatarDesignation: 'Chile',
+    ratings: '5',
   },
   {
     testimonialThumb: '/images/testimonial_1.jpeg',
     testimonialText:
-      'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-    avatarName: 'Ahon Monsery',
-    avatarDesignation: 'CEO AT TECH',
-    ratings: '3.5',
+      'Excellent, very understanding and patient with my requests. Understood the brief really well. Happy to use again. Thank you',
+    avatarName: 'repeakltd',
+    avatarDesignation: 'United Kingdom',
+    ratings: '5',
+  },
+  {
+    testimonialThumb: '/images/testimonial_2.jpeg',
+    testimonialText:
+      'I highly recommend this team for creating product photo infographics. They did an outstanding job for our company, producing visually stunning and informative graphics that effectively conveyed our product features and benefits. The team was very professional, easy to work with, and delivered the final product on time and within budget. We were extremely pleased with the results and have received many positive comments from customers and colleagues alike. We will definitely be using them again in the future.',
+    avatarName: 'dustingilmour',
+    avatarDesignation: 'Canada',
+    ratings: '5',
+  },
+  {
+    testimonialThumb: '/images/testimonial_3.jpeg',
+    testimonialText:
+      'excellent work done, everything done on time, we are very satisfied',
+    avatarName: 'miloskrunic398',
+    avatarDesignation: 'Serbia',
+    ratings: '5',
+  },
+  {
+    testimonialThumb: '/images/testimonial_1.jpeg',
+    testimonialText:
+      'Outstanding service! This company is very professional. I have used their services several times and will continue to use their services. Always willing to make updates and give their honest opinion. Thank you for your continued trustworthy services!',
+    avatarName: 'tamarawalker73',
+    avatarDesignation: 'United States',
+    ratings: '5',
   },
 ];
+
 
 export default function TestimonialSlider() {
   const [nav1, setNav1] = useState();
